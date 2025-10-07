@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>カンバンボード</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="kanban-board">
+  <div class="column" data-status="todo">
+    <h3>To Do</h3>
+    <button onclick="addCard('todo')">＋追加</button>
+  </div>
+  <div class="column" data-status="in-progress">
+    <h3>In Progress</h3>
+    <button onclick="addCard('in-progress')">＋追加</button>
+  </div>
+  <div class="column" data-status="done">
+    <h3>Done</h3>
+    <button onclick="addCard('done')">＋追加</button>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

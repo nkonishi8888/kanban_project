@@ -1,0 +1,20 @@
+.kanban-board {
+  display: flex;
+  gap: 20px;
+}
+.column {
+  width: 200px;
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 8px;
+}
+.card {
+  background: #fff;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: grab;
+}
+.column.drag-over {
+  background: #d0f0ff;
+}
